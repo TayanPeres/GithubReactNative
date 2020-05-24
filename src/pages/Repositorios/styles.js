@@ -4,7 +4,7 @@ import { metrics, colors } from '../../styles'
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: colors.lighter
+    backgroundColor: colors.primary
   },
   loagind: {
     marginTop: metrics.baseMargin * 2

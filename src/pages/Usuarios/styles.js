@@ -5,6 +5,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: colors.white,
+   // backgroundColor: colors.white,
     padding: metrics.baseMargin * 2,
     justifyContent: 'center',
     alignItems: 'center'
@@ -29,6 +30,9 @@ const styles = StyleSheet.create({
   //  marginTop: 1,
     color: colors.darkTransparent,
     height: 20,
+  },
+  contInfo: {
+    backgroundColor: colors.secundary,
   }
 })
 

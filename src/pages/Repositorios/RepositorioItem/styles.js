@@ -3,8 +3,6 @@ import { colors, metrics } from '../../../styles'
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    flexDirection: 'column',
     backgroundColor: colors.white,
     borderRadius: metrics.baseRadius,
     padding: metrics.basePadding,
@@ -17,7 +15,8 @@ const styles = StyleSheet.create({
   },
   infoContainer: {
     flexDirection: 'row',
-    marginTop: metrics.baseMargin,
+    marginTop: metrics.baseMargin 
+
   },
   info: {
     flexDirection: 'row',
@@ -25,11 +24,12 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   infoIcon: {
-    color: colors.dark
+    color: colors.dark,
   },
   infoText: {
     color: colors.dark,
     fontSize: 12,
+    //marginTop: metrics.baseMargin * 2
     marginLeft: metrics.baseMargin / 2
   }
 })

@@ -28,6 +28,7 @@ export default class Usuario extends Component {
        <View style={styles.container}>
        <TouchableOpacity style={styles.button}
        onPress={() => this.props.navigation.navigate('Repositorios')}>
+       
 
        <Image style={styles.ava} source={{uri: user.avatar_url}} />
        </TouchableOpacity>
